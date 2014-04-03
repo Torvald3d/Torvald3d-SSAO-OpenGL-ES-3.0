@@ -1,0 +1,19 @@
+/home/torvald/Dropbox/Android/SSAOTest/gen/com/torvald/ssaotest/R.java \
+ : /home/torvald/Dropbox/Android/SSAOTest/res/drawable-xxhdpi/ic_launcher.png \
+/home/torvald/Dropbox/Android/SSAOTest/res/values-v14/styles.xml \
+/home/torvald/Dropbox/Android/SSAOTest/res/layout/activity_main.xml \
+/home/torvald/Dropbox/Android/SSAOTest/res/values/strings.xml \
+/home/torvald/Dropbox/Android/SSAOTest/res/values/dimens.xml \
+/home/torvald/Dropbox/Android/SSAOTest/res/values/styles.xml \
+/home/torvald/Dropbox/Android/SSAOTest/res/menu/main.xml \
+/home/torvald/Dropbox/Android/SSAOTest/res/values-v11/styles.xml \
+/home/torvald/Dropbox/Android/SSAOTest/res/drawable-mdpi/ic_launcher.png \
+/home/torvald/Dropbox/Android/SSAOTest/res/values-sw600dp/dimens.xml \
+/home/torvald/Dropbox/Android/SSAOTest/res/drawable-xhdpi/ic_launcher.png \
+/home/torvald/Dropbox/Android/SSAOTest/res/drawable-hdpi/ic_launcher.png \
+/home/torvald/Dropbox/Android/SSAOTest/res/values-sw720dp-land/dimens.xml \
+/home/torvald/Dropbox/Android/SSAOTest/bin/res/drawable-xxhdpi/ic_launcher.png \
+/home/torvald/Dropbox/Android/SSAOTest/bin/res/drawable-mdpi/ic_launcher.png \
+/home/torvald/Dropbox/Android/SSAOTest/bin/res/drawable-xhdpi/ic_launcher.png \
+/home/torvald/Dropbox/Android/SSAOTest/bin/res/drawable-hdpi/ic_launcher.png \
+/home/torvald/Dropbox/Android/SSAOTest/bin/AndroidManifest.xml \

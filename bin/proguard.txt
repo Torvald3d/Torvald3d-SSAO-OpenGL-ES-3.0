@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:22
+-keep class com.torvald.ssaotest.MainActivity { <init>(...); }
+

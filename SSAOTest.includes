@@ -1,0 +1,9 @@
+/home/torvald/Dropbox/Android/Dragon/jni
+/home/torvald/android-ndk-r9/sources/android/cpufeatures
+/home/torvald/android-ndk-r9/sources/cxx-stl/stlport/stlport
+/home/torvald/android-ndk-r9/sources/cxx-stl/gabi++/include
+/home/torvald/android-ndk-r9/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.6/include
+/home/torvald/android-ndk-r9/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.6/include-fixed
+/home/torvald/android-ndk-r9/platforms/android-18/arch-arm/usr/include
+/home/torvald/android-ndk-r9/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.6/include/
+/home/torvald/android-ndk-r9/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.6/include/-fixed

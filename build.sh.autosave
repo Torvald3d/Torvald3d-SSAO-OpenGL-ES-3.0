@@ -1,0 +1,13 @@
+#!/bin/sh
+
+case "$1" in
+	clean) /home/torvald/android-ndk-r9/ndk-build clean && ant clean
+		;;
+	deploy) /home/torvald/android-sdk-linux/platform-tools/adb install -r bin/MainActivity-debug.apk > /dev/null 2>&1 & # && /home/torvald/android-sdk-linux/platform-tools/adb logcat -c && /home/torvald/android-sdk-linux/platform-tools/adb logcat -s "SSAOTest"
+		;;
+	run) #/home/torvald/android-sdk-linux/platform-tools/adb shell am start -n com.torvald.ssaotest/com.torvald.ssaotest.MainActivity > /dev/null 2>&1 &
+		;;
+	*) #kill $(ps aux | grep "adb logcat" | grep -v "grep" | awk '{print $2}') > /dev/null 2>&1 &
+		/home/torvald/android-ndk-r9/ndk-build NDK_DEBUG=0 -j9 && ant debug
+		;;
+esac
