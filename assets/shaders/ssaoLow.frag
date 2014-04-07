@@ -19,7 +19,7 @@ layout(location = 0) out float outColor;
 in vec2 texCoord;
 in vec3 viewRay;
 
-float getSample(in int i, in mat3 rotate, in vec3 pos, in vec3 rnd) {
+float getSample(in mat3 rotate, in vec3 pos, in vec3 rnd) {
 	vec3 samplePos = rotate*rnd;
 	samplePos = samplePos*radius+pos;
 
@@ -58,11 +58,11 @@ void main() {
 		float distanceCheck = smoothstep(0.0, 1.0, radius/abs(pos.z-sampleDepth));
 		acc += step(sampleDepth, samplePos.z)*distanceCheck;
 	}*/
-	acc += getSample(0, rotate, pos, rndTable[0]);
-	acc += getSample(1, rotate, pos, rndTable[1]);
-	acc += getSample(2, rotate, pos, rndTable[2]);
-	acc += getSample(3, rotate, pos, rndTable[3]);
-	acc += getSample(4, rotate, pos, rndTable[4]);
+	acc += getSample(rotate, pos, rndTable[0]);
+	acc += getSample(rotate, pos, rndTable[1]);
+	acc += getSample(rotate, pos, rndTable[2]);
+	acc += getSample(rotate, pos, rndTable[3]);
+	acc += getSample(rotate, pos, rndTable[4]);
 
 	outColor = step(254.0/255.0, 1.0-(acc/float(samples)));
 }

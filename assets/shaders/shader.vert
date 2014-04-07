@@ -3,7 +3,6 @@
 uniform mat4 matrixProj;
 uniform mat4 matrixView;
 uniform vec3 lightPos;
-uniform	vec3 eyePos;
 
 layout(location = 0) in vec3 vPos;
 layout(location = 1) in vec3 nPos;
