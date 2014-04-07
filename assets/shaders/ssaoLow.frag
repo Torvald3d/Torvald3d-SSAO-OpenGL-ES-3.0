@@ -47,7 +47,7 @@ void main() {
 
 	float acc = 0.0;
 	/*for (int i=0; i<samples; i++) { //на Adreno циклы глючат >___<
-		vec3 samplePos = rotate*rndTable[0];
+		vec3 samplePos = rotate*rndTable[i];
 		samplePos = samplePos*radius+pos;
 
 		vec4 shift = proj*vec4(samplePos, 1.0);
